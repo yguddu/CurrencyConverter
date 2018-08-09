@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC  
+          "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+          "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">  
+          <hibernate-mapping>
+          <class name="bean.CurrencyBean" table="currency">
+          <id name="id">
+          <generator class="native"></generator>
+          </id>
+          <property name="baseCurrency" type="string"></property>
+          <property name="currencyName" type="string"></property>
+          <property name="currencyValue" type="string"></property>
+          <property name="date" type="timestamp"></property>
+          </class>  
+          </hibernate-mapping>

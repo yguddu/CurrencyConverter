@@ -1,0 +1,21 @@
+@CHARSET "ISO-8859-1";
+
+body { 
+  background: url("currencyhead.png") no-repeat fixed center; 
+  background-size:cover; 
+  align:center;
+}
+
+h1 {
+    color: coral;
+    margin-left: 20px;
+   
+}
+h2 {
+	color: coral;
+}
+form
+{
+	float:left;
+	margin-left:30%;
+}
